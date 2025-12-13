@@ -1,0 +1,85 @@
+
+@media screen and (max-width:1000px) {
+    #pre, .two,.use, .use~select{
+        display: none;
+    }
+    .way{
+        gap: 0;
+    }
+    .of{
+        display: inline;
+        font-size: 16px;
+    }
+    .id{
+        width: 350px;
+    }
+    .hero p{
+        display: none;
+    }
+    .berserker{
+        display: block;
+    }
+    .berserk, .magic{
+        width: 300px;
+    }
+    .glutt{
+        display: block;
+    }
+    .footer{
+        display: block;
+    }
+    .bicholiya{
+        font-size: 16px;
+        display: block;
+    }
+    .buton{
+        font-size: 20px;
+    }
+    .part{
+        display: block;
+    }
+    .your{
+        position: absolute;
+        left: 20px;
+        top: 900px;
+        width: 85vw;
+    }
+    .main{
+        display: block;
+
+    }
+    .part img{
+    border-radius: 15px;
+    width: 100%;
+    
+    }
+    .part{
+        padding-right: 50px;
+        width: 100%;
+        height: 850px;
+        box-sizing: border-box;
+    }
+    .part p{
+        width: 100%;
+    }
+    .part2{
+        height: 430px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px) {
+    .twi{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+    .part>img{
+        border-radius: 15px;
+        width: 100%;
+    }   
+    #pre, .one{
+        display: none;
+    }
+}

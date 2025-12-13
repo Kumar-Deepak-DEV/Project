@@ -1,0 +1,370 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    padding-right: 0;
+    margin: 0;
+    position: relative;
+}
+.nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: navy;
+    padding: 20px 15px;
+    margin: 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.id{
+    color: white;
+    display: flex;
+    /* width: 500px; */
+    height: 45px;
+} 
+pre{
+    font-size: 16px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+#select{
+    background-color: navy;
+    color: white;
+    border: none;
+}
+.free{
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(11, 63, 167);
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.sale{
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(11, 63, 167);;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.head{
+    background-image: linear-gradient( navy, navy,rgb(88, 70, 255) 25%,white);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    
+}
+.sword{
+    font-size: 54px;
+    font-weight: bold;
+    
+}
+p{
+    margin: 0;
+}
+#poke{
+    margin-bottom: 20px;
+}
+.img{
+    margin: 0 40px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    overflow-x: auto;
+    /* justify-content: space-evenly; */
+}
+
+.head img{
+    margin-top: 50px;
+    height: 480px;
+    padding-right: 15px;
+}
+
+.blah:hover{
+    height: 500px;
+    margin-top: 20px;
+}
+.newbie img{
+    width: 325px;
+    margin: 0;
+}
+.ossan{
+    display: flex;
+    gap: 50px;
+    margin: 75px;
+    overflow-y:auto;
+}
+.newbie p{
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+}
+.adventurer{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: rgb(0, 0, 81);
+    font-weight: bold;
+}
+.trained{
+    font-size: 50px;
+}
+.adventurer a{
+    text-decoration: none;
+    color: gray;
+}
+#to{
+    color: rgb(0, 0, 81);
+    
+}
+.death img{
+    width:600px;
+    float: right;
+    
+}
+.by{
+    color: rgb(0, 0, 81);
+    font-weight: bold;
+}
+.death{
+    margin: 40px;
+}
+.death button{
+    margin-left:30px;
+}
+.strongest{
+    margin-top: 200px;
+    text-align: center;
+    background-image: linear-gradient(rgb(2, 2, 67) 70%, black);
+    color: white;
+    padding-top:75px ;
+    padding-left: 30px;
+}
+.party{
+    color: aqua;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.became{
+    width: 100%;
+    float: left;
+    box-shadow: aqua 0px 5px 15px, aqua 0px -12px 30px, aqua 0px 4px 6px, aqua 0px 12px 13px, aqua 0px -3px 5px;
+}
+
+#i{
+    font-size: 24px;
+}
+
+.invincible{
+    text-align: left;
+    float:right; 
+}
+
+.bofuri li{
+    font-size: 20px;
+}
+.dont{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.want{
+    width: 65%;
+
+}
+.get{
+    width: 15%;
+    float: left;
+    margin-bottom: 0;
+}
+.hurt{
+    display: flex;
+    flex-direction: column;
+}
+.will img{
+    width: 80px;
+}
+
+.will{
+    text-align: left;
+    padding-left:30px ;
+}
+.will img+p{
+    color: aqua;
+    font-size: 20px;
+}
+.max{
+    font-size:12px ;
+}
+.out{
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+.out a{
+    color: white;
+}
+
+.defence{
+    width: 16vw;
+}
+.defence:hover{
+    width: 18vw;
+}
+.my{
+    text-align: center;
+    margin-top:75px ;
+    font-weight: bold;
+    font-size: 24px;
+}
+.cheat{
+    font-size: 32px;
+    color: navy;
+}
+.in{
+    border-right: 1px solid gray;
+}
+.cheat + img{
+    width: 150px;
+}
+.in{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.too{
+    font-size: 12px
+}
+
+.another{
+    width: 100px;
+}
+
+.got{
+    text-align: center;
+}
+
+.world{
+    font-weight: bold;
+}
+
+.this{
+    width: 12%;
+    height: 400px;
+}
+.consume{
+    font-size: 20px;
+    color: rgb(0, 76, 255);
+    font-weight: 600;
+}
+.done{
+    width: 60%;
+}
+
+.wrong{
+    text-align: center;
+}
+.zoom{
+    color: navy;
+}
+
+.bitter{
+    padding: 50px 100px;
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 23), rgb(1, 1, 90));
+}
+.footer{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.berserker{
+    display: flex;
+    gap: 30px;
+}
+.magic > img{ 
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.use{
+    display: flex;
+}
+.footer select{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(52, 52, 116);
+    border: none;
+    border-radius: 8px;
+}
+
+.way{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
+.glutt{
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.gluttony{
+    font-size: 10px;
+    display: inline;
+}
+.chotu{
+    width: 25px;
+}
+.of{
+    font-size: 24px;
+    font-weight: bold;
+}
+.squire{
+    width: 25px;
+    margin: 10px;
+}
+#goter{
+    overflow-x: auto;
+}
+.adven{
+    overflow-x: auto;
+}
+
+@media screen and (max-width:1030px) {
+    .jio{
+        display: none;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .idea{
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .airtel{
+        display: none;
+    }
+} 

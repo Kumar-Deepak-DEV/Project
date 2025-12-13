@@ -1,0 +1,231 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding-right: 0;
+    position: relative;
+    font-size: 16px;
+    color: rgb(1, 1, 46);
+}
+
+.nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: navy;
+    background-color: white;
+    padding: 20px 15px;
+    margin: 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+.id{
+    color: navy;
+    display: flex;
+    width: 500px;
+    height: 35px;
+} 
+pre{
+    font-size: 16px;
+}
+.menu a{
+    text-decoration: none;
+    color: navy;
+}
+#select{
+    background-color: white;
+    color: navy;
+    border: none;
+}
+.free{
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(11, 63, 167);
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.bies{
+    border-radius: 30px;
+    float: right;
+}
+.sale{
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(11, 63, 167);;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.way{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
+.glutt{
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.bitter{
+    padding: 50px 100px;
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 23), rgb(1, 1, 90));
+
+}
+.berserker{
+    display: flex;
+    gap: 30px;
+}
+.magic > img{ 
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.gluttony{
+    font-size: 10px;
+    display: inline;
+}
+.use{
+    display: flex;
+}
+.footer select{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(52, 52, 116);
+    border: none;
+    border-radius: 8px;
+}
+.chotu{
+    width: 25px;
+}
+.of{
+    font-size: 24px;
+    font-weight: bold;
+}
+.squire{
+    width: 25px;
+    margin: 10px;
+}
+.h1{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.ques{
+    font-weight: 600;
+    font-size: 24px;
+}
+.ques+select{
+    margin: 20px;
+    margin-top: 0;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.part img{
+    border-radius: 15px;
+    width: 68%;
+    float: left;
+    margin-bottom: 100px;
+}
+.main{
+    display: flex;
+}
+.part{
+    width: 70%;
+    padding-left:50px ;
+}
+.your{
+    border: 4px solid rgb(0, 255, 187);
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    left: 53%;
+    background-color: white;
+    z-index: 0;
+    padding: 20px;
+    width: 550px;
+}
+.your input{
+    width: 99%;
+    border-radius: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    /* width: 535px; */
+    padding-left: 10px;
+    border:1px solid gray ;
+    color: black;
+    margin-bottom: 20px;
+}
+.your select{
+    border: none;
+    width: 100%;
+}
+.part2{
+    width: 30%;
+    background-color: navy;
+}
+.h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+legend{
+    color: blue;
+    font-size: 12px;
+}
+fieldset{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.h1~p{
+    font-size: 20px;
+}
+.nine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h9{
+    font-size: 12px;
+}
+.bicholiya{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left:  30vw;
+    padding-right:  30vw;
+    display: flex;
+    background-color: blue;
+    color: white;
+    font-size: 1.2vw;
+}
+.buton{
+    height: 50px;
+    font-size: 1.4vw;
+    background-color: aqua;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(0, 0, 51);
+}
