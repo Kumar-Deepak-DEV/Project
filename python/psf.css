@@ -1,0 +1,369 @@
+/* psf.css - Revised to match the style of the first page (index.html) */
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box; /* Ensures padding and border are inside element's total width/height */
+}
+
+/* --- Header Section (Consistent Dark Blue Background) --- */
+.head {
+    color: white;
+    background-color: rgb(0, 26, 110); /* Main dark blue from index.html */
+}
+
+/* Top Navigation Bar (Darker Blue) */
+.table {
+    background-color: rgb(12, 0, 50); /* Darkest blue from index.html */
+    width: 100%;
+}
+.table td {
+    border-right: 0.1vh solid gray;
+}
+.table a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation Link Bars - Keeping the original color differentiation for a1-a6 */
+.a1 {
+    padding: 0.3vw 5.3vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px rgb(63, 99, 219) solid; /* Retained color */
+}
+.a2 {
+    padding: 0.3vw 5.3vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px rgb(130, 130, 130) solid; /* Retained color */
+}
+.a3 {
+    padding: 0.3vw 5.3vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px rgb(229, 255, 0) solid; /* Retained color */
+}
+.a4 {
+    padding: 0.3vw 5.3vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px rgb(5, 162, 0) solid; /* Retained color */
+}
+.a5 {
+    padding: 0.3vw 5.3vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px rgb(147, 92, 255) solid; /* Retained color */
+}
+.a6 {
+    padding: 0.3vw 5.3vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px rgb(164, 72, 72) solid; /* Retained color */
+}
+
+.pyth {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: flex-end; /* Align logo and controls to the bottom */
+}
+
+.img {
+    height: 100px; /* Keep original PSF logo size */
+    margin: 30px 100px; /* Center the logo roughly as in the original index.html */
+}
+
+.dim {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    padding-bottom: 50px;
+}
+
+/* Donate Button */
+.yellow {
+    margin-top: 3vw;
+    background-color: yellow; /* Yellow accent color */
+    height: 30px; /* Fixed height for consistency */
+    border: none;
+    border-radius: 2px;
+    padding: 0 15px; /* Add padding for better look */
+    font-weight: bold;
+}
+
+/* Search Box (.tr) and Socialize/Sign In (.tr2) */
+.tr, .tr2 {
+    margin-top: 2vw;
+    height: 60px; /* Fixed height for consistency */
+    background-color: rgb(2, 2, 78); /* Dark background from index.html */
+    padding: 0.3vw 1vw 0.3vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.tr {
+    display: flex;
+    align-items: center;
+}
+
+.tr p {
+    margin-top: 0;
+    margin-left: 5px;
+}
+.sear {
+    margin-top: 0; /* Resetting margin on the icon */
+    font-size: 24px;
+}
+
+.blue {
+    /* Go Button */
+    margin: 0.5vw;
+    background-color: rgb(41, 64, 133); /* Blue button color from index.html */
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.tr2 {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    height: 60px; /* Ensuring consistency */
+}
+
+.hide {
+    display: none;
+    padding: 0.3w 1vw 0.3vw;
+}
+
+.tr2:hover .hide {
+    display: block;
+    color: black;
+    background-color: lightgray; /* Adjusted hover color for visibility */
+}
+.tr2:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Main Navigation Blocks */
+.but_info {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centering the blocks */
+    border-radius: 3px;
+    margin: 0 auto; /* Removed 2vw margin, let content dictate spacing */
+    max-width: fit-content;
+}
+
+.info {
+    padding: 1vw;
+    width: 15vw;
+    min-width: 120px; /* Reduced min-width to better match original layout */
+    text-align: center;
+    background-color: rgb(9, 40, 133); /* Blue background for blocks from index.html */
+    border: 1px solid rgb(0, 26, 110); /* Darker border */
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.and {
+    width: 8vw;
+    min-width: 92px;
+}
+.qwer {
+    display: flex;
+}
+
+/* Header Banner Text */
+.yel {
+    color: yellow;
+    font-size: 30px; /* Fixed font size for better consistency/readability */
+    font-weight: bold;
+    margin-left: 10vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* --- Main Content Area --- */
+main {
+    margin: 3vw 5vw;
+    text-align: left; /* Setting text back to left alignment */
+}
+
+.hallow {
+    text-align: center; /* Center the "We Support..." section */
+    margin-bottom: 40px;
+}
+
+.pikachu {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(0, 26, 110);
+    margin-bottom: 20px;
+}
+
+.raicchu {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: rgb(41, 64, 133); /* A middle blue for subheadings */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hallow img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.hallow p a {
+    color: rgb(41, 64, 133);
+}
+
+/* Call to Action Blocks */
+.hr {
+    background-color: rgb(20, 77, 127);
+    height: 5px;
+    border-radius: 2px;
+    border: none;
+}
+.big {
+    font-size: 24px; /* Fixed size for main heading inside blocks */
+    font-weight: bold;
+    margin-top: 10px;
+}
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Increased gap for separation */
+    text-align: left;
+    justify-content: space-between; /* Distribute space between columns */
+}
+
+.hard {
+    width: 48%; /* Allows two columns with space in between */
+    min-width: 300px;
+    padding-bottom: 20px;
+}
+.soft {
+    width: 100%; /* Full width for news/grants */
+    padding-bottom: 20px;
+}
+
+.arboc {
+    /* Style to match the yellow donate button look */
+    background-color: yellow;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding: 0 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.tablet a {
+    color: rgb(13, 96, 186);
+    display: block; /* Make links block level for better click area */
+    padding: 5px 0;
+}
+
+.tablet tr {
+    border-top: 1px solid lightgray;
+}
+
+/* --- Footer Section --- */
+.about {
+    /* Container for the footer tables */
+    display: flex;
+    background-color: rgb(229, 229, 229);
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.about > table {
+    width: 200px; /* Consistent width */
+    min-width: 200px;
+    text-align: left; /* Aligning footer links to the left for better readability */
+    border-collapse: collapse;
+}
+
+.about td {
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+.about table tr:first-child {
+    height: 45px;
+    font-size: 20px; /* Smaller font for better hierarchy */
+    font-weight: bold;
+    color: rgb(41, 64, 133); /* Blue color for footer headings */
+}
+
+/* Final Footer/Copyright Area */
+.tail {
+    text-align: center;
+    background-color: rgb(0, 26, 110); /* Main dark blue */
+    color: aqua;
+    padding: 50px;
+}
+
+.tail pre {
+    font-size: 14px; /* Fixed size for readability */
+    color: white; /* Making the pre text white */
+    margin-bottom: 10px;
+}
+
+.tail p {
+    /* Copyright text */
+    font-size: 10px;
+    text-decoration: none; /* Removing the underline from the original p */
+    color: aqua;
+}
+
+@media screen and (max-width: 1100px) {
+    .img {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hard {
+        width: 100%;
+        min-width: unset;
+    }
+    .img {
+        display: none; /* Hide image on small screens to save space */
+    }
+    .pyth {
+        justify-content: center;
+    }
+    .yel {
+        margin-left: 5vw;
+        font-size: 5vw;
+    }
+    .tr, .tr2, .yellow {
+        /* Stack controls vertically or hide some on tiny screens */
+        margin-top: 10px;
+        height: auto;
+    }
+    .dim {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+}
+
+.sear{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+input{
+    width: 500px;
+    height: 32PX;
+}
+#ID{
+    height: 32px;
+}
+
+.biggy{
+    font-size: 38px;
+}
+.div{
+    display: flex;
+    padding-left: 50px;
+    gap: 40px;
+}
+
+.heavy{
+    font-size: 20px;
+}
+p{
+    margin: 0;
+}
+footer{
+    font-size: 12px;
+    text-align: right;
+}
