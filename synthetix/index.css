@@ -1,0 +1,689 @@
+body{
+    background-color: #111114;
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+    z-index: -3;
+    position: relative;
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+}
+.display img{
+    padding-top: 17px;
+    height: 15px;
+}
+
+
+.exc,.selec,.learn{
+    background-color: rgba(176, 176, 176,0.2);
+    color: white;
+    border: none;
+    height: 30px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.selec{
+    color: gray;
+    padding-left: 0;
+    margin-top: 0;
+    background-color: transparent;
+    font-size:16px;
+}
+.learn{
+    background-color: #00d1ff;
+    color: black;
+}
+.learn:hover {
+    background-color: #00aacc; 
+}
+.exc:hover {
+    background-color: rgba(176, 176, 176, 0.4);
+}
+
+
+.img img{
+    border-radius: 20px;
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.option{
+    display: flex;
+    gap: 30px;
+    align-items: center; 
+}
+
+.option a{
+    text-decoration: none;
+    color: gray;
+}
+.option a:hover,.option select:hover{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    background-color: rgba(44, 44, 44,0.1);
+    justify-content: space-between;
+    margin:0 60px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+    align-items: center;
+    padding: 10px 0;
+}
+.bone{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.bada ~p{
+    font-weight: 600;
+    font-size: 20px;   
+}
+.body{
+    margin-bottom: 300px;
+}
+
+
+.io{
+    background-color: rgba(3, 206, 252,0.3);
+    border: 1px solid rgba(3, 206, 252,1);
+    width: 120px;
+    border-radius: 20px;
+    margin: auto;
+    color: aqua;
+}
+.io+p, .oi{
+    font-family: cursive;
+    font-style: italic;
+    color: aqua;
+    font-size: 30px;
+    margin: 10px;
+}
+.gong{
+    color: white;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.lam,.trio{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: left;
+}
+
+.photo,.rough{
+    z-index: -2;
+    height: 500px;
+    width: 480px;
+    background:rgba(26, 26, 31, 0.6) ;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.rough{
+    height: 420px;
+    padding: 40px;
+    width: 490px;
+}
+.rough img{
+    height:250px ;
+    max-width: 100%;
+    object-fit: contain;
+    align-self: center;
+}
+.photo img{
+    z-index: -1;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top:30% ;
+    left: 15%;
+}
+.photo button{
+    width: 200px;
+    padding: 10px;
+    height: 40px;
+}
+.trade{
+    font-size: 32px;
+    color: white;
+}
+.shop{
+    background:rgba(26, 26, 31, 0.6) ;
+    border: 1px solid rgba(255, 255, 255, 0.226);   
+    height: 500px;
+    width: 480px;
+    padding: 40px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.off{
+    color: white;
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.off + p{
+    margin-bottom: 30px;
+}
+.rough .off{
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.rough p{
+    margin-bottom: 20px;
+}
+.polo{
+    z-index: -2;
+    background:rgba(26, 26, 31, 0.6) ;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    height: 300px;
+    position: relative;
+    width: 980px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-align: left;
+    margin-bottom: 400px;
+    display: flex;
+    align-items: center;
+}
+.polo img{
+    height: 250px;
+    width: 940px;
+    border-radius: 15px;
+}
+.ion img{
+    height: 280px;
+    width: 340px;
+    border-radius: 15px;
+}
+
+ .pon{
+    width: 440px; 
+} 
+.meas, .model{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+    text-align: left;
+}
+.low, .order, .key{
+    margin-bottom: 15px;
+    height: 320px;
+    width: 480px;
+    background:rgba(26, 26, 31, 0.6) ;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;   
+    z-index: -2;
+    position: relative;
+}
+.order{
+    height: 480px;
+    width: 460px;
+    margin-bottom: 400px;
+}
+.model img{
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.low img, .model img{
+    width: 400px;
+    position: absolute;
+    margin-bottom: 0;
+    z-index: -1;
+    max-width: 90%;
+    height: auto;
+    left: 5%; 
+}
+.rot{
+    margin-bottom: 400px;
+}
+.low p{
+    position: absolute;
+    top: 230px;
+}
+.low .off{
+    position: absolute;
+    top: 200px;
+}
+
+.order p{
+    position: absolute;
+    top: 370px;
+}
+.order .off{
+    position: absolute;
+    top: 320px;
+}
+.true img{
+    width: 300px;
+    position: absolute;
+    margin-bottom: 0;
+    top: 150px;
+    left: 150px;
+    height: 150px;
+    z-index: -1;
+}
+.key{
+    margin-bottom: 400px;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+.partners img{
+    width: 130px;
+    margin: 30px;
+}
+
+.ship{
+    margin-bottom: 120px;
+}
+
+.liqui{
+    margin: 0;
+}
+
+.liqui + p{
+    margin-bottom: 125px;
+}
+.background{
+    position: relative;
+    margin-bottom: 175px;
+}
+
+.background div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1; 
+}
+.background img{
+    width: 100vw;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.subscribe{
+    font-size: 14px;
+    text-align: left;
+    width: 420px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#inp-email{
+    width: 270px;
+    height: 35px;
+    background:rgba(26, 26, 31, 0.6) ;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.subs{
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    width: 100px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#check{
+    background:rgba(26, 26, 31, 0.6) ;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    color: red;
+}
+
+#check+label{
+    font-size: 12px;
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+}
+.footer a:hover {
+    color: white;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+    margin: auto;
+    width: 90vw;
+}
+
+.tag{
+    width: 22.5vw;
+    margin: 30px;
+}
+
+.img-syn{
+    width: 200px;
+}
+.imag svg{
+    clip-path: circle(45%);
+}
+.social, .end{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    font-size: 12px;
+    align-items: center; 
+}
+
+.social{
+    padding: 15px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.hamburger-menu {
+    display: none;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.hamburger-menu svg {
+    width: 28px;
+    height: 28px;
+    stroke: white;
+    margin-top: 12px;
+}
+
+.kont{
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1024px) {
+    .nav {
+        margin: 0 20px; 
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+
+    .lam, .trio, .model {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .photo, .shop, .rough, .order, .key {
+        width: 90vw;
+        max-width: 900px;
+        height: auto; /* Allow height to adjust to content */
+        margin-bottom: 20px;
+    }
+    .photo{
+        height: 400px;
+    }
+    .order{
+        height: 450px;
+    }
+
+    .order img{
+        left: 25%;
+    }
+    .low{
+        width: 350px;
+    }
+    .photo img{
+        top: 20%;
+        left: 40%;
+    }
+    
+    .polo {
+        width: 90vw; 
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .polo .text, .pon {
+        width: 100%;
+    }
+
+    .polo img {
+        position: absolute;
+        width: 60%;
+        height: 50%;
+        top: 30%;
+        left: 35%;
+        margin-top: 20px;
+    }
+    
+    .ion img{
+        height: 80%;
+        width: auto;
+        top: 10%;
+        left: 65%;
+    }
+
+    .partners {
+        overflow-y: auto;
+    }
+
+    
+    .partners img{
+        width: 130px;
+        margin: 30px;
+    }
+    .foot {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .tag {
+        width: 40%;
+        min-width: 200px;
+        margin: 20px 15px;
+    }
+
+    .body, .polo, .rot, .key, .order {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .nav {
+        margin: 0;
+        padding: 10px 15px;
+        width: 100vw;
+        box-sizing: border-box
+    }
+
+    .hamburger-menu {
+        display: block;
+        z-index: 102;
+    }
+
+    .option {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        background-color: #111114;
+        z-index: 101; 
+        padding-top: 80px; 
+        align-items: flex-start; 
+        padding-left: 30px;
+        gap: 20px;
+    }
+    
+    .nav-links-active {
+        display: flex; 
+    }
+
+    .option a {
+        font-size :16px;
+    }
+
+    .option .selec {
+        font-size: 1.2rem;
+    }
+
+    .bone {
+        font-size: 44px;
+        margin-bottom: 15px;
+    }
+
+    .gong {
+        font-size: 34px;
+    }
+
+    .trade {
+        font-size: 28px;
+    }
+    .meas{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .photo, .low, .order, .key{
+        padding: 20px;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .low,.meas{
+        width: 90vw;
+        margin: auto;
+        position: relative;
+    }
+    .key{
+        height: 300px;
+    }
+    .meas img{
+        z-index: -1;
+    }
+    .grav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 15%;
+        height: 80%;
+    }
+    
+    .order{
+        height: 530px;
+    }
+    .photo img, .low img, .model img, .order img, .true img {
+        position: static; 
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        top: auto;
+        left: auto;
+        z-index: -1;
+    }
+    .true img{
+        height: 200px;
+    }
+    
+    .rough {
+        height: auto;
+    }
+
+    .rough img {
+        height: auto; 
+        max-height: 200px; 
+    }
+
+    .low p, .low .off, .order p, .order .off {
+        position: static; 
+        top: auto;
+    }
+
+    .body, .polo, .rot, .key, .order, .ship, .liqui + p, .background, .subscribe {
+        margin-bottom: 40px;
+    }
+
+    .background div {
+        width: 90%;
+    }
+    .background img {
+        height: 250px; 
+        object-fit: cover; 
+    }
+    
+    .background{
+        margin-top: 100px; 
+        margin-bottom: 100px; 
+    }
+    .foot {
+        flex-direction: column;
+        align-items: flex-start; 
+        width: 90vw;
+    }
+
+    .tag {
+        width: 100%;
+        text-align: left;
+        margin: 15px 0;
+    }
+
+    .social, .end {
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 20px;
+    }
+
+    .center {
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 10px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
